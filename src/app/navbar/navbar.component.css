@@ -1,0 +1,103 @@
+.banner{
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(160deg, rgba(90, 28, 145, 1) 40%, rgba(216, 43, 30, 1) 100%);
+  background: -moz-linear-gradient(160deg, rgba(90, 28, 145, 1) 40%, rgba(216, 43, 30, 1) 100%);
+  background: -webkit-linear-gradient(160deg, rgba(90, 28, 145, 1) 40%, rgba(216, 43, 30, 1) 100%);
+  background: -o-linear-gradient(160deg, rgba(90, 28, 145, 1) 40%, rgba(216, 43, 30, 1) 100%);
+  color: #ffffff;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+.banner h1{
+  font-size: 2.5em;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 3.03px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.banner p{
+  font-family: "Poppins";
+  font-size: 1em;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: rgb(255, 255, 255);
+  width: 94%;
+}
+.banner p span{
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.bannerBtns{
+  margin-top: 20px;
+}
+.storeBtn{
+  padding: 0 .75rem .375rem;
+  text-align: left !important;
+}
+.storeBtn img{
+  max-height: 40px;
+}
+.btnBan{
+  margin-top: 8px;
+  
+}
+.banHold {
+  text-align: right;
+}
+.wsmenu>.wsmenu-list>li a{
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  color: rgb(51, 60, 78);
+
+}
+.menuSep{
+  height: 30px;
+  width: 2px;
+  margin-top: 20px;
+  background-color: #313C50;
+}
+.wsmenu>.wsmenu-list>li a:hover{
+  color: #FF4121;
+}
+.wsmenu>.wsmenu-list>li:last-child>a {
+  border-right: 0px;
+  background: #5a1c91 !important;
+  padding: 0px 18px !important;
+  margin-top: 10px;
+  color: #fff !important;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+}
+.wsmenu>.wsmenu-list>li:last-child>a:hover{
+  background: #FF4121 !important;
+}
+/* media queries */
+@media only screen and (max-width:991px){
+  .wsmenu>.wsmenu-list>li:last-child>a{
+    margin-top: 0px;
+    padding: 12px 32px 12px 17px !important;
+    border-radius: 0px;
+  }
+}
+@media only screen and (max-width:575px){
+  .banHold{
+    text-align: center;
+  }
+  .storeBtn {
+    padding: .75rem .375rem;
+    text-align: center !important;
+  }
+}

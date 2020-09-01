@@ -1,0 +1,292 @@
+/* Color Swicher CSS */
+body {
+  background-color: #e9ebef;
+}
+
+.swichermainbx {
+  max-width: 1140px;
+  margin: 155px auto 0px auto;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 32px;
+}
+
+.swichermainleft {
+  width: 50%;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.swichermainright {
+  width: 50%;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.swichermainright.swichertxt {
+  width: 100%;
+  float: none;
+  margin-bottom: 25px;
+}
+
+.swichertxt02 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.wscolorcode:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.wscolorcode {
+  width: 12.5%;
+  margin: 0px;
+  color: #fff;
+  float: left;
+  padding: 4px 12px 4px 12px;
+  margin: 0px;
+  height: 30px;
+  line-height: 22px;
+  background-color: #333;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  /*border-bottom: solid 2px #fff;*/
+}
+
+.wscolorcode.cblack {
+  width: 16.66%;
+}
+
+.wscolorcode.active {
+  border-bottom: solid 2px #333;
+  opacity: 1;
+}
+
+.wscolorcode.cblack.active {
+  border-bottom: solid 2px #da4b38;
+  opacity: 1;
+}
+
+.wscolorcode i {
+  font-size: 15px;
+  color: #fff;
+}
+
+.wscolorcode.cblue {
+  background-color: #1991eb;
+}
+
+.wscolorcode.corange {
+  background-color: #fb872b;
+}
+
+.wscolorcode.cred {
+  background-color: #d7412e;
+}
+
+.wscolorcode.cpink {
+  background-color: #eb65a0;
+}
+
+.wscolorcode.cgreen {
+  background-color: #80c133;
+}
+
+.wscolorcode.cpurple {
+  background-color: #967ADC;
+}
+
+.wscolorcode.cgry {
+  background-color: #ccc;
+}
+
+
+/* End COlor Swicher CSS */
+.header {
+  width: 100%;
+  display: block;
+  min-height: 214px;
+  padding-top: 0px;
+}
+
+.headerwp {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.posrlt {
+  position: relative;
+}
+
+.headtoppart {
+  display: block;
+  width: 100%;
+  background-color: #5A1C91;
+  height: 39px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  min-width: 320px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10002;
+}
+
+.headertopleft {
+  width: 100%;
+}
+
+.headertopright {
+  float: right;
+  text-align: right;
+}
+
+.headertopright a {
+  line-height: 38px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 0px 15px;
+  float: right;
+}
+
+.headertopright a:nth-last-child(4) {
+  font-size: 19px;
+}
+
+.headertopright a:hover {
+  background-color: #272B37;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.headertopright a.facebookicon:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.headertopright a.twittericon:hover {
+  background-color: #55acee;
+  color: #fff;
+}
+
+.headertopright a.linkedinicon:hover {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.headertopright a.googleicon:hover {
+  background-color: #d33d69;
+  color: #fff;
+}
+
+.address {
+  padding: 10px 0px 0px 0px;
+  font-size: 12px;
+  color: #b6b6b6;
+}
+
+.address a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.address span {
+  margin-right: 9px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.address i {
+  margin-right: 6px;
+  margin-left: 30px;
+  color: #ffffff;
+}
+
+.norlt {
+  position: static;
+}
+
+.menuwrapper {
+  position: relative;
+}
+
+.show-grid {
+  background-color: #fff;
+}
+
+.btn-border {
+  border: 2px solid;
+  border-radius: 40px;
+  display: inline-block;
+  font-size: 13px;
+  text-transform: uppercase;
+  -moz-user-select: none;
+  background-image: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #fff;
+  padding: 15px 40px;
+}
+
+.btn-border:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.btn-border:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.mobiletext02 {
+  display: none;
+}
+
+@media only screen and (min-width: 230px) and (max-width:991px) {
+  .headtoppart {
+    display: none;
+  }
+
+  .swichermainbx {
+    width: 96%;
+    margin: 25% 2%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    border-radius: 14px;
+  }
+
+  .swichermainleft {
+    width: 98%;
+    margin: 1% 1%;
+  }
+
+  .swichermainright {
+    width: 98%;
+    margin: 1% 1%;
+  }
+
+  .wscolorcode {
+    width: 12.5%;
+  }
+
+  .swichertxt {
+    display: none;
+  }
+
+  .swichertxt02 span {
+    display: none;
+  }
+}

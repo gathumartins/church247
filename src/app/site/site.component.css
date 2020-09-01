@@ -1,0 +1,125 @@
+#pageTop{
+    background-image: url("../../assets/img/ovalbg.png");
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y: 92%;
+}
+.bodySects{
+    padding: 50px 15px;
+}
+section:before {
+  height: 70px;
+  content: "";
+  display: block;
+}
+.howTo{
+    background-image: url(../../assets/img/howtoban.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.howOut{
+    margin-bottom:30px;
+}
+.sectHeading h1{
+    font-family: "Poppins";
+    font-size: 2.5em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    margin-bottom: 40px;
+    letter-spacing: 2.43px;
+    color: rgb(3, 7, 7);
+}
+.howInnTop{
+    width: 65px;
+    height: 65px;
+    background-color: rgb(90, 28, 145);
+    border-radius: 50%;
+    padding-top: 15px;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin: 0px auto 20px;
+}
+.howInn p{
+    font-family: "Poppins";
+    font-size: 1em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: rgb(0, 0, 0);
+    min-height: 70px;
+}
+.sectHeadingTwo h1{
+   font-family: "Poppins";
+   font-size: 2.5em;
+   font-weight: 500;
+   font-stretch: normal;
+   font-style: normal;
+   letter-spacing: 2.43px;
+   color: rgb(3, 7, 7);
+}
+.features{
+    padding: 50px 15px;
+}
+.underFeat{
+    width: 72px;
+    height: 3px;
+    background-color: rgb(90, 28, 145);
+    margin-bottom: 40px;
+}
+.featCont{
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-column-gap: 15px;
+}
+.featCont p{
+    margin-top: 5px;
+    font-family: "Poppins";
+    font-size: 1.2em;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: rgb(0, 0, 0);
+    max-width: 320px;
+
+}
+.download{
+    min-height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background:rgba(33, 34, 35, 0.98);
+    color: #ffffff;
+}
+.download h1{
+     font-family: "Poppins";
+     font-size: 2.3em;
+     font-weight: 500;
+     font-stretch: normal;
+     font-style: normal;
+     margin-bottom: 40px;
+     letter-spacing: 2.43px;
+     color: rgb(255, 255, 255);
+}
+.download h1 span{
+  font-weight: 800;
+}
+.download h3 {
+  font-family: "Montserrat";
+  font-size: 1em;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  color: rgb(255, 255, 255);
+  margin-bottom:25px;
+}
+.storeBtn img{
+    max-height: 40px;
+}

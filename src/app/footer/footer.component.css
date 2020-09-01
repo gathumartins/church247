@@ -1,0 +1,32 @@
+.copyRight{
+    min-height: 50px;
+    padding: 18px 15px 8px;
+    background-color: #222324;
+}
+.footLinks ul li{
+    display:inline-block;
+    margin-right: 15px;
+}
+.footLinks ul li a{
+    color: #fff;
+}
+.copy {
+    margin:auto;
+}
+.copy p{
+    color: #fff;
+}
+/* .headertopright a{
+    margin-left: 15px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+} */
+/* media queries */
+@media only screen and (max-width:575px){
+    .footLinks ul li{
+        text-align: center;
+    }
+    .headertopright{
+        text-align: center;
+    }
+}
