@@ -169,21 +169,25 @@ body {
 .headertopright a.facebookicon:hover {
   background-color: #3b5998;
   color: #fff;
+  border-radius: 5px;
 }
 
 .headertopright a.twittericon:hover {
   background-color: #55acee;
   color: #fff;
+  border-radius: 5px;
 }
 
 .headertopright a.linkedinicon:hover {
   background-color: #d33d69;
   color: #fff;
+  border-radius: 5px;
 }
 
 .headertopright a.googleicon:hover {
   background-color: #8134AF;
   color: #fff;
+  border-radius: 5px;
 }
 
 .address {
